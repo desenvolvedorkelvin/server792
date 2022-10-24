@@ -1,0 +1,18 @@
+<npc name="Topsy" script="Xodet.lua" floorchange="0" walkinterval="3000" >
+	<health now="100" max="100"/>
+	<look type="139" head="78" body="52" legs="64" feet="115"/>
+	<parameters>
+<parameter key="idletime" value="30"/>
+<parameter key="message_greet" value="Hello, dear |PLAYERNAME|. How can I help you?"/>
+<parameter key="message_placedinqueue" value="I am busy with a customer at the moment."/>
+<parameter key="message_walkaway" value="Good bye. Do come again!"/>
+<parameter key="message_farewell" value="Good bye. Do come again!"/>
+<parameter key="message_idletimeout" value="Good bye. Do come again!"/>
+
+<parameter key="message_decline" value="Hmm, but next time."/>
+<parameter key="message_needmoremoney" value="Come back, when you have enough money."/>
+	<parameter key="module_shop" value="1" />
+		<parameter key="shop_buyable" value="life fluid,23375,60;mana fluid,23373,100;blank rune,2260,10;snakebite rod,2182,500;wand of plague,2188,5000;spellbook,2175,150;lifefluid,23375,60;manafluid,23373,100;wand of vortex,2190,500;quagmire rod,2181,10000;snakebite rod,2182,500;moonlight rod,2186,1000;volcanic rod,2185,5000;tempest rod,2183,15000;wand of dragonbreath,2191,1000;wand of plauge,2188,5000;wand of cosmic energy,2189,10000;" />
+		<parameter key="shop_sellable" value="vial,2006,5;" />
+	</parameters>
+</npc>

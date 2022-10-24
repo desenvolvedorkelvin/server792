@@ -1,0 +1,12 @@
+<raid>
+	 <!--Announcements-->
+	<announce delay="1000" type="event" message="There are more lions than usual center of Darashia." />
+	<announce delay="20000" type="event" message="Even more lions center of Darashia!" />
+	<announce delay="120000" type="event" message="Lions is roaming the Darashia desert!" />
+	 <!--Single Spawns-->
+	 <areaspawn delay="1000" fromx="33197" fromy="32402" fromz="7" tox="33197" toy="32402" toz="7">
+	    <monster name="Lion" amount="50" />
+	 </areaspawn>
+</raid>
+
+

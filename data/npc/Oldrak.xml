@@ -1,0 +1,14 @@
+<npc name="Oldrak" script="Oldrak.lua" floorchange="0" walkinterval="3000" >
+	<health now="150" max="150"/>
+	<look type="57" head="0" body="0" legs="0" feet="0"/>
+	<parameters>
+<parameter key="idletime" value="30"/>
+<parameter key="message_greet" value="Welcome |PLAYERNAME|! Rarely I can welcome visitors in these days. I selling 'holy tible'."/>
+<parameter key="message_placedinqueue" value="Please wait a minute, |PLAYERNAME|."/>
+<parameter key="message_walkaway" value="Take care, it's dangerous out there."/>
+<parameter key="message_farewell" value="Good bye, |PLAYERNAME|!"/>
+<parameter key="message_idletimeout" value="Good bye, |PLAYERNAME|!"/>
+<parameter key="module_shop" value="1" />
+<parameter key="shop_buyable" value="holy tible,1970,1000;" />
+</parameters>
+</npc>

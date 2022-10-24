@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Demoncracker of Habbits" nameDescription="de,pm cracker of habbits" race="fire" experience="450000" speed="2000" manacost="0">
+	<health now="980000" max="980000"/>
+	<look type="1134" corpse="6080"/>
+	<targetchange interval="1000" chance="50"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag staticattack="98"/>
+		<flag targetdistance="1"/>
+		<flag runonhealth="2000"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="0" max="-350"/>
+		<attack name="speed" interval="4000" chance="20" range="7" target="1" speedchange="-550" duration="12000">
+			<attribute key="shootEffect" value="poison"/>
+		</attack>
+		<attack name="earth" interval="2000" chance="40" range="7" radius="7" target="0" min="-150" max="-500">
+			<attribute key="areaEffect" value="poison"/>
+		</attack>
+		<attack name="earth" interval="2000" chance="20" range="7" min="-150" max="-380">
+			<attribute key="shootEffect" value="poison"/>
+		</attack>
+		<attack name="lifedrain" interval="2000" chance="25" length="8" spread="0" min="-200" max="-450">
+			<attribute key="areaEffect" value="rednote"/>
+		</attack>
+		<attack name="outfit" interval="2000" chance="50" range="7" item="3976" duration="7000">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</attack>
+		<attack name="earth" interval="2000" chance="10" length="8" spread="3" min="-200" max="-300">
+			<attribute key="areaEffect" value="poison"/>
+		</attack>
+	</attacks>
+	<defenses armor="0" defense="0">
+		<defense name="healing" interval="2000" chance="15" min="250" max="1500">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+		<defense name="speed" interval="2000" chance="15" speedchange="340" duration="5000">
+			<attribute key="areaEffect" value="redshimmer"/>
+		</defense>
+	</defenses>
+	<immunities>
+		<immunity fire="1"/>
+		<immunity earth="1"/>
+		<immunity paralyze="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<summons maxSummons="8">
+		<summon name="water elemental" interval="1000" chance="33"/>
+	</summons>
+	<voices interval="5000" chance="30">
+		<voice sentence="Muhahahahahahahahaa!" yell="1"/>
+		<voice sentence="Muhahahahahahahahaa" yell="1"/>
+		<voice sentence="Muhahahahahahahahaa" yell="1"/>
+		<voice sentence="You are dead boy! Muhahahahahahahahaa" yell="1"/>
+	</voices>
+	<loot>
+	
+		<item id="6500" chance="95000"/>				<!-- demonic essence -->
+		<item id="2523" chance="100000"/>				<!-- dragon claw -->
+		<item id="2152" countmax="74" chance="95000"/>	<!-- platinum coin -->
+		<item id="2155" chance="50000"/>				<!-- green gem -->
+		<item id="2150" countmax="18" chance="36333"/>	<!-- small amethyst -->
+		<item id="1986" chance="27000"/>				<!-- red tome -->
+		<item id="2149" countmax="6" chance="27000"/>	<!-- small emerald -->
+		<item id="2146" countmax="8" chance="27000"/>	<!-- small sapphire -->
+		<item id="5954" countmax="2" chance="22000"/>	<!-- demon horn -->
+		<item id="2214" chance="22000"/>				<!-- ring of healing -->
+		<item id="2151" countmax="7" chance="22000"/>	<!-- talon -->
+		<item id="2387" chance="18000"/>				<!-- double axe -->
+		<item id="2472" chance="18000"/>				<!-- magic plate armor -->
+		<item id="2164" chance="18000"/>				<!-- might ring -->
+		<item id="2178" chance="18000"/>				<!-- mind stone -->
+		<item id="2165" chance="18000"/>				<!-- stealth ring -->
+		<item id="2112" chance="18000"/>				<!-- teddy bear -->
+		<item id="2144" countmax="15" chance="13000"/>	<!-- black pearl -->
+		<item id="2033" chance="13000"/>				<!-- golden mug -->
+		<item id="5943" chance="13000"/>				<!-- morgaroth's heart -->
+		<item id="2143" countmax="13" chance="13000"/>	<!-- white pearl -->
+		<item id="2158" chance="18000"/>					<!-- blue gem -->
+		<item id="2520" chance="18000"/>					<!-- demon shield -->
+		<item id="2167" chance="18000"/>					<!-- energy ring -->
+		<item id="2393" chance="18000"/>					<!-- giant sword -->
+		<item id="2179" chance="18000"/>					<!-- gold ring -->
+		<item id="2470" chance="18000"/>					<!-- golden legs -->
+		<item id="2177" chance="18000"/>					<!-- life crystal -->
+		<item id="2162" chance="18000"/>					<!-- magic lightwand -->
+		<item id="2176" chance="18000"/>					<!-- orb -->
+		<item id="2645" chance="18000"/>					<!-- steel boots -->
+		<item id="2174" chance="18000"/>					<!-- strange symbol -->
+		<item id="2421" chance="180000"/>					<!-- thunder hammer -->
+	</loot>
+</monster>

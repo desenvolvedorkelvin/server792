@@ -1,0 +1,1 @@
+function onUse(cid, item, frompos, item2, topos) if not isPremium(cid) then return doPlayerSendTextMessage(cid,22,"need golden account.") end doTransformItem(item.uid, item.itemid + 1) doTeleportThing(cid, topos, true) doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE,"Welcome.") return true end

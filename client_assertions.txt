@@ -1,0 +1,121 @@
+----- 04/07/2022 15:12:31 - Bojji (138.117.81.36) -----
+Debug Assertion 8.0 Objects.cpp 277
+Mon Jul 04 12:11:34 2022
+Windows Version: 6.2 build 9200 on 2
+Graphic Engine: OpenGL (1)
+Last Packet Types: 110 109 030 109 102 109 109 106 109 109
+Last Packet: 031 000 110 000 038 011 008 000 098 097 099 107 112 097 099 107
+Player Position: [32360,31781,7]
+Player Name: Bojji
+Player.cpp 358: exception occurred, reason:
+Network.cpp 980: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1309: exception occurred (Type = 110), reason:
+Communication.cpp 2020: exception occurred (Container = 0), reason:
+Objects.cpp 280: exception occurred (Type = 23375) (Flag = 11), reason:
+Objects.cpp 277: assertion failed (Type = 23375) (ObjectProperties->high() = 7475), reason:
+In(Type,ObjectProperties->low(),ObjectProperties->high())
+Comment: 
+----- 03/08/2022 23:19:59 - Sirius (177.249.168.9) -----
+Debug Assertion 8.0 Objects.cpp 277
+Wed Aug 03 17:19:40 2022
+Windows Version: 6.2 build 9200 on 2
+Graphic Engine: DirectX9 (2)
+Last Packet Types: 110 109 109 160 107 162 160 180 172 172
+Last Packet: 030 000 110 000 038 011 008 000 098 097 099 107 112 097 099 107
+Player Position: [32420,32214,8]
+Player Name: Sirius
+Player.cpp 358: exception occurred, reason:
+Network.cpp 980: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1309: exception occurred (Type = 110), reason:
+Communication.cpp 2020: exception occurred (Container = 0), reason:
+Objects.cpp 280: exception occurred (Type = 19722) (Flag = 11), reason:
+Objects.cpp 277: assertion failed (Type = 19722) (ObjectProperties->high() = 7475), reason:
+In(Type,ObjectProperties->low(),ObjectProperties->high())
+Comment: 
+----- 03/08/2022 23:22:57 - Sirius (177.249.168.9) -----
+Debug Assertion 8.0 Objects.cpp 277
+Wed Aug 03 17:22:30 2022
+Windows Version: 6.2 build 9200 on 2
+Graphic Engine: DirectX9 (2)
+Last Packet Types: 110 104 109 104 109 140 160 104 109 140
+Last Packet: 030 000 110 000 038 011 008 000 098 097 099 107 112 097 099 107
+Player Position: [32414,32214,7]
+Player Name: Sirius
+Player.cpp 358: exception occurred, reason:
+Network.cpp 980: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1309: exception occurred (Type = 110), reason:
+Communication.cpp 2020: exception occurred (Container = 0), reason:
+Objects.cpp 280: exception occurred (Type = 19722) (Flag = 11), reason:
+Objects.cpp 277: assertion failed (Type = 19722) (ObjectProperties->high() = 7475), reason:
+In(Type,ObjectProperties->low(),ObjectProperties->high())
+Comment: 
+----- 03/08/2022 23:24:35 - Sirius (177.249.168.9) -----
+Debug Assertion 8.0 Objects.cpp 277
+Wed Aug 03 17:23:51 2022
+Windows Version: 6.2 build 9200 on 2
+Graphic Engine: DirectX9 (2)
+Last Packet Types: 110 104 109 160 104 109 104 109 104 109
+Last Packet: 030 000 110 000 038 011 008 000 098 097 099 107 112 097 099 107
+Player Position: [32397,32214,7]
+Player Name: Sirius
+Player.cpp 358: exception occurred, reason:
+Network.cpp 980: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1309: exception occurred (Type = 110), reason:
+Communication.cpp 2020: exception occurred (Container = 0), reason:
+Objects.cpp 280: exception occurred (Type = 19722) (Flag = 11), reason:
+Objects.cpp 277: assertion failed (Type = 19722) (ObjectProperties->high() = 7475), reason:
+In(Type,ObjectProperties->low(),ObjectProperties->high())
+Comment: 
+----- 05/10/2022 18:52:53 - Masakrowiec (188.191.207.175) -----
+Debug Assertion 8.0 Objects.cpp 277
+Wed Oct 05 23:51:37 2022
+Windows Version: 6.1 build 7601 on 2 with Service Pack 1
+Graphic Engine: DirectX9 (2)
+Last Packet Types: 110 131 131 131 131 130 101 109 101 109
+Last Packet: 030 000 110 000 038 011 008 000 098 097 099 107 112 097 099 107
+Player Position: [32370,32237,7]
+Player Name: Pan Mechanik
+Player.cpp 358: exception occurred, reason:
+Network.cpp 980: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1309: exception occurred (Type = 110), reason:
+Communication.cpp 2020: exception occurred (Container = 0), reason:
+Objects.cpp 280: exception occurred (Type = 19722) (Flag = 11), reason:
+Objects.cpp 277: assertion failed (Type = 19722) (ObjectProperties->high() = 7475), reason:
+In(Type,ObjectProperties->low(),ObjectProperties->high())
+
+----- 05/10/2022 18:54:14 - Bug Wtf (188.191.207.175) -----
+Debug Assertion 8.0 Objects.cpp 277
+Wed Oct 05 23:53:01 2022
+Windows Version: 6.1 build 7601 on 2 with Service Pack 1
+Graphic Engine: DirectX9 (2)
+Last Packet Types: 101 109 142 142 131 109 140 142 142 131
+Last Packet: 192 000 109 112 126 234 125 007 001 112 126 233 125 007 101 152
+Player Position: [32368,32233,7]
+Player Name: Masakrowiec
+Player.cpp 358: exception occurred, reason:
+Network.cpp 980: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1309: exception occurred (Type = 101), reason:
+Communication.cpp 1548: exception occurred, reason:
+Communication.cpp 1509: exception occurred (xmin = 0) (ymin = 0), reason:
+Communication.cpp 1488: exception occurred (Type = 19220) (OldType = 3147), reason:
+Objects.cpp 280: exception occurred (Type = 19220) (Flag = 11), reason:
+Objects.cpp 277: assertion failed (Type = 19220) (ObjectProperties->high() = 7475), reason:
+In(Type,ObjectProperties->low(),ObjectProperties->high())
+
+----- 05/10/2022 18:55:55 - Buug (188.191.207.175) -----
+Debug Assertion 8.0 Objects.cpp 277
+Wed Oct 05 23:54:53 2022
+Windows Version: 6.1 build 7601 on 2 with Service Pack 1
+Graphic Engine: DirectX9 (2)
+Last Packet Types: 110 104 109 104 109 104 109 030 104 109
+Last Packet: 030 000 110 000 038 011 008 000 098 097 099 107 112 097 099 107
+Player Position: [32367,32241,6]
+Player Name: Bug Wtf
+Player.cpp 358: exception occurred, reason:
+Network.cpp 980: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1309: exception occurred (Type = 110), reason:
+Communication.cpp 2020: exception occurred (Container = 0), reason:
+Objects.cpp 280: exception occurred (Type = 19722) (Flag = 11), reason:
+Objects.cpp 277: assertion failed (Type = 19722) (ObjectProperties->high() = 7475), reason:
+In(Type,ObjectProperties->low(),ObjectProperties->high())
+Comment: 

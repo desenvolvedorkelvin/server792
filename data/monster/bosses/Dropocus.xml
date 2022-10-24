@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Dropocus" nameDescription="a dropocus" race="undead" experience="50000" speed="340" manacost="0">
+	<health now="880000" max="880000"/>
+	<look type="1077" corpse="5984"/>
+	<targetchange interval="500" chance="50"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="70"/>
+		<flag runonhealth="250"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="27" attack="47"/>
+		<attack name="lifedrain" interval="2000" chance="10" target="0" length="8" spread="3" min="-55" max="-80">
+			<attribute key="areaEffect" value="poff"/>
+		</attack>
+		<attack name="speed" interval="2000" chance="20" target="0" radius="3" speedchange="-700" duration="12000">
+			<attribute key="areaEffect" value="poff"/>
+		</attack>
+		<attack name="physical" interval="2000" chance="30" radius="3" target="0" min="-20" max="-40">
+			<attribute key="areaEffect" value="blackspark"/>
+		</attack>
+		<attack name="physical" interval="2000" chance="30" target="1" radius="4" min="-10" max="-20">
+			<attribute key="areaEffect" value="blackspark"/>
+		</attack>
+		<attack name="physical" interval="2000" chance="25" target="0" length="1" spread="0" min="-0" max="-20">
+			<attribute key="areaEffect" value="poff"/>
+		</attack>
+	</attacks>
+	<defenses armor="0" defense="0">
+		<defense name="healing" interval="2000" chance="10" min="150" max="200">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+		<defense name="speed" interval="2000" chance="15" speedchange="290" duration="5000">
+			<attribute key="areaEffect" value="redshimmer" />
+		</defense>
+	</defenses>
+	
+	<immunities>
+		<immunity lifedrain="1"/>
+		<immunity paralyze="1"/>
+		<immunity invisible="1"/>
+		<immunity fire="1"/>
+		
+		<immunity earth="1"/>
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="YOU WILL FREEZE!" yell="1"/>
+		<voice sentence="ZCHHHHH!" yell="1"/>
+		<voice sentence="I am so cool"/>
+		<voice sentence="Chill out!."/>
+	</voices>
+	<loot>
+		<item id="2148" countmax="100" chance="33000"/><!-- gold coin -->
+		<item id="2148" countmax="100" chance="33000"/><!-- gold coin -->
+		<item id="32703" countmax="10" chance="903000"/><!-- gold coin -->
+		<item id="2148" countmax="42" chance="33000"/><!-- gold coin -->
+		<item id="2672" countmax="5" chance="80370"/><!-- dragon ham -->
+		<item id="2547" countmax="6" chance="6000"/><!-- power bolt -->
+		<item id="2796" chance="12000"/><!-- green mushroom -->
+		<item id="1976" chance="8500"/><!-- gemmed book -->
+		<item id="2146" chance="5200"/><!-- small sapphire -->
+
+		<item id="2167" chance="5000"/><!-- energy ring -->
+		<item id="2033" chance="3000"/><!-- golden mug -->
+        <item id="2414" chance="78000"/><!-- d lance  -->
+		<item id="2177" chance="12200"/><!-- life crystal -->
+		<item id="2492" chance="28000"/><!-- dragon scale mail -->
+		<item id="2479" chance="45000"/><!-- strange helmet -->
+		<item id="2498" chance="48000"/><!-- royal helmet -->
+		<item id="2528" chance="134000"/><!-- tower shield -->
+		<item id="2195" chance="375000"/><!-- boots haste -->
+
+        <item id="2173" chance="47500"/><!-- boots haste -->
+		<item id="2396" chance="175000"/><!-- ice rapier -->
+	</loot>
+</monster>

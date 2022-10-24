@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Training Monk" nameDescription="a Training Monk" race="blood" experience="145" speed="0" manacost="480">
+	<health now="19000" max="19000"/>
+	<look type="225" corpse="6080"/>
+	<targetchange interval="5000" chance="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="0" max="-1"/>
+	</attacks>
+	<defenses armor="0" defense="0">
+		<defense name="healing" interval="500" chance="15" min="25000" max="49600">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+		<defense name="speed" interval="2000" chance="15" speedchange="240" duration="6000">
+			<attribute key="areaEffect" value="redshimmer"/>
+		</defense>
+	</defenses>
+	
+	<immunities>
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="You are no match to us!"/>
+		<voice sentence="This is where your path will end!"/>
+		<voice sentence="Your end has come!"/>
+	</voices>
+	<loot>
+		<item id="2689" chance="20550"/>				<!-- bread -->
+		<item id="2148" countmax="18" chance="14600"/>	<!-- gold coin -->
+		<item id="1949" chance="1790"/>					<!-- scroll -->
+		<item id="2177" chance="1000"/>					<!-- life crystal -->
+		<item id="2193" chance="910"/>					<!-- ankh -->
+		<item id="2642" chance="880"/>					<!-- sandals -->
+		<item id="2044" chance="550"/>					<!-- lamp -->
+		<item id="2015" chance="400"/>					<!-- brown flask -->
+		<item id="2166" chance="130"/>					<!-- power ring -->
+	</loot>
+</monster>

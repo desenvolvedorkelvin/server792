@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<creaturescripts>	
+	<event type="login" name="PlayerLogin" script="login.lua"/>
+	<event type="logout" name="PlayerLogout" script="logout.lua"/>
+	<event type="login" name="loot" script="loot.lua"/>
+
+	<!-- Death -->
+	<event type="death" name="PlayerDeath" script="playerdeath.lua"/>
+	<event type="death" name="DropLoot" script="droploot.lua"/>
+    <event type="death" name="Deathchannel" script="deathchanel.lua"/>
+    <event type="kill" name="tasksystem" script="task system.lua"/>
+<!--	<event type="kill" name="burningheart" script="burningheart.lua"/> -->
+    <event type="kill" name="inquisition" script="inquisition.lua"/>
+	<!-- Others -->
+	<event type="extendedopcode" name="ExtendedOpcode" script="extendedopcode.lua"/>
+	<event type="advance" name="LevelSave" script="levelSave.lua"/>
+
+	<!-- Task -->
+	<event type="kill" name="TaskKill" script="task/taskKill.lua"/>
+
+	<!-- Desativados -->
+	<!--
+	<event type="login" name="FirstItems" script="firstitems.lua"/>
+	<event type="login" name="RegenerateStamina" script="regeneratestamina.lua"/>
+	<event type="kill" name="Exp_Extra" script="expbonus.lua"/>
+	-->
+
+</creaturescripts>

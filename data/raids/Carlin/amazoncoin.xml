@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+
+	<areaspawn delay="1000" fromx="32267" fromy="32814" fromz="7" tox="32342" toy="32851" toz="7">     
+		<monster name="Dragonbosscoin" amount="1" />
+	</areaspawn>
+
+	<areaspawn delay="1000" fromx="32267" fromy="32814" fromz="7" tox="32342" toy="32851" toz="7">
+		<monster name="Dragonlordcoin" amount="10" />
+		<monster name="Dragoncoin" amount="20" />
+	</areaspawn>
+</raid>
+

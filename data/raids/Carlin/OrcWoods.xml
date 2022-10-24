@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+	<announce delay="1000" type="event" message="Some Orcs are assembling in the woods between Thais." />
+	<announce delay="40000" type="event" message="Orcs attacks Thais!." />
+	<areaspawn delay="40000" fromx="32302" fromy="32167" fromz="7" tox="32426" toy="32216" toz="7">
+		<monster name="Orc" amount="50" />
+	</areaspawn>
+	<announce delay="43000" type="event" message="Orcs attacking Thais!" />
+	<areaspawn delay="43000" fromx="32302" fromy="32167" fromz="7" tox="32426" toy="32216" toz="7">
+		<monster name="Orc Berserker" amount="20" />
+		<monster name="Orc Leader" amount="15" />
+		<monster name="Orc Shaman" amount="15" />
+	</areaspawn>
+</raid>
+
